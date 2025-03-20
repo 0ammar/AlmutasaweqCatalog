@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "AlmutasaweqCatalog.Controllers.ReadController",
+    "Method": "GetAllGroups",
+    "RelativePath": "api/Read/groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmutasaweqCatalog.Controllers.ReadController",
+    "Method": "GetAllItemsBySubThrees",
+    "RelativePath": "api/Read/items/{subThreeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subThreeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmutasaweqCatalog.Controllers.ReadController",
+    "Method": "GetAllSubOnesByGroups",
+    "RelativePath": "api/Read/subones/{groupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmutasaweqCatalog.Controllers.ReadController",
+    "Method": "GetAllSubThreesBySubTwos",
+    "RelativePath": "api/Read/subthrees/{subTwoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subTwoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmutasaweqCatalog.Controllers.ReadController",
+    "Method": "GetAllSubTwosBySubOnes",
+    "RelativePath": "api/Read/subtwos/{subOneId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subOneId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

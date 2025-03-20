@@ -1,0 +1,114 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AlmutasaweqCatalog",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Read/groups": {
+      "get": {
+        "tags": [
+          "Read"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Read/subones/{groupId}": {
+      "get": {
+        "tags": [
+          "Read"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Read/subtwos/{subOneId}": {
+      "get": {
+        "tags": [
+          "Read"
+        ],
+        "parameters": [
+          {
+            "name": "subOneId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Read/subthrees/{subTwoId}": {
+      "get": {
+        "tags": [
+          "Read"
+        ],
+        "parameters": [
+          {
+            "name": "subTwoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Read/items/{subThreeId}": {
+      "get": {
+        "tags": [
+          "Read"
+        ],
+        "parameters": [
+          {
+            "name": "subThreeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
